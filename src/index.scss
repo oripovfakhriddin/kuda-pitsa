@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+header{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+main{
+  background-color: #F9F9F9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  object-fit: cover;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1330px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

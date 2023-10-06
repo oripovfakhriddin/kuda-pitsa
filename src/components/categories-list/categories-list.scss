@@ -1,0 +1,19 @@
+.categories__box{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  gap: 30px;
+  a{
+    color: #191919;
+    text-align: center;
+    padding: 20px 0px;
+    max-width: 135px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid  #F0F0F0;
+    background-color: #FFF;
+    &:hover{
+      color: #FF7010;
+    }
+  }
+}

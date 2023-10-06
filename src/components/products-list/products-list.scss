@@ -1,0 +1,46 @@
+.categories__title__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #191919;
+    margin-top: 48px;
+    margin-bottom: 30px;
+  }
+
+  button{
+    border: none;
+    background-color: transparent;
+    padding: 9px 16px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid  #F0F0F0;
+    background-color: #FFF;
+    span{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      color: #191919;
+    }
+    &:hover{
+      border-color: #FF7010;
+      span{
+        color: #FF7010;
+      }
+    }
+  }
+}
+
+.categories__products__box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}

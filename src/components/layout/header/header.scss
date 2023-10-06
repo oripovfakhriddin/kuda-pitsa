@@ -1,0 +1,53 @@
+/* ------- HEADER TOP --------*/
+
+.header__top__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.selected__lang__box select{
+  outline: none;
+  padding: 10px 20px;
+  border: none;
+  border: 1px solid #FF7010;
+  border-radius: 6px;
+}
+
+
+
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.header__nav__list{
+  display: flex;
+  gap: 32px;
+}
+
+.header__nav__item a{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #191919;
+  &:hover, &:active{
+    color: #FF7010;
+  }
+}
+
+.header__cart__box{
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  background-color: #FF7010;
+}
