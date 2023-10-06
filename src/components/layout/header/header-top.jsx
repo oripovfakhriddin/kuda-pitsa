@@ -10,7 +10,7 @@ const HeaderTop = () => {
     <Fragment>
       <div className="container header__top__container">
         <div> 
-          <h1>salom</h1>
+          <h1>Куда пицца</h1>
         </div>
         <div className="selected__lang__box">
           <select value={langType} onChange={changeLanguages} >

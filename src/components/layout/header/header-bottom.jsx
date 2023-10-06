@@ -6,12 +6,14 @@ import CartLogoImg from "../../../assets/images/cart-shop-korzinki.svg"
 
 import "./header.scss"
 import { LanguageContext } from "../../../contexts/LanguageContext";
+import { CartContext } from "../../../contexts/CartContext";
 
 
 const HeaderBottom = () => {
 
   const { lang } = useContext(LanguageContext)
-  
+  const { countTotalPrice } = useContext(CartContext)
+
   return (
     <Fragment>
       <header>
@@ -63,17 +65,11 @@ const HeaderBottom = () => {
                 {lang.sous}
                 </Link>
               </li>
-              <li className="header__nav__item">
-                <Link to="/">
-                  
-                </Link>
-              </li>
-
             </ul>
           </nav>
           <div className="header__cart__box">
-            <Link className="header__cart__box">
-              <span><img src={CartLogoImg} alt="Cart Logo" /></span> <span>0 ₽</span>
+            <Link to="/cart" className="header__cart__box">
+              <span><img src={CartLogoImg} alt="Cart Logo" /></span> <span>{countTotalPrice} ₽</span>
             </Link>
           </div>
         </div>

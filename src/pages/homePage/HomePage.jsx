@@ -1,9 +1,5 @@
 import { Fragment } from "react";
 
-
-
-
-
 import "./homePage.scss"
 import CategoriesList from "../../components/categories-list/categories-list";
 import ProductsList from "../../components/products-list/products-list";
@@ -11,6 +7,7 @@ import { categories } from "../../data/categories";
 
 const HomePage = () => {
 
+  
 
   return (
   <Fragment>

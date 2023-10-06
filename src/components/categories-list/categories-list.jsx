@@ -9,11 +9,13 @@ import "./categories-list.scss"
 const CategoriesList = () => {
   return (
     <Fragment>
-      <div className="categories__box">
-        <CategoriesCart name = {"Акции"} image={DiscountLogo} />
-        {categories.map((category)=>
-        <CategoriesCart key={category.name} {...category}/> )}
-      </div>
+      
+        <div className="categories__box">
+          <CategoriesCart name = {"Акции"} image={DiscountLogo} />
+          {categories.map((category)=>
+          <CategoriesCart key={category.name} {...category}/> )}
+        </div>
+      
       
     </Fragment>
   )

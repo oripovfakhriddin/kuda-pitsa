@@ -8,7 +8,7 @@ import "./categories-cart.scss"
 const CategoriesCart = ({name, image}) => {
   return (
     <Fragment>
-      <Link>
+      <Link to="/">
         <div className="categories__cart__img-box">
           <img src={image} alt={name} />
         </div>

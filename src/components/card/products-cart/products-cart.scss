@@ -68,3 +68,23 @@
   line-height: 24px;
   color: #FF7010; 
 }
+
+.control__quantity__btn{
+  transition: 0.5s;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 7px 15px;
+  border: 1px solid #FF7010;
+  &:hover{
+    background-color: #FF7010;
+    color: #FFF;
+  }
+}
+
+.product__quantity{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
